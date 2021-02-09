@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-image: url("Assets/background.jpg");
+    background-size: 80%;
+    background-attachment: fixed;
+    top: 0;
+}
+
+#title {
+    font-family: 'Raleway', sans-serif bold;
+    background-color: black;
+    color: #FFFACD;
+    font-size: 53px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.form {
+    margin-top: 30px;
+    font-size: 33px;
+    background-color: #FF7F50;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    display: inline-block;
+    text-align: center;
+    left: 100px;
+    width: 45%;
+    color: #4B0082;
+    margin-bottom: 0px;
+}
+
+#newTodo {
+    background-color: inherit;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid red;
+    margin-bottom: 0px;
+    color: #2F4F4F;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#ntd {
+    margin-right: 5px;
+}
+
+#name {
+    margin-left: 50px;
+}
+
+#tname {
+    background-color: inherit;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid red;
+    color: #2F4F4F;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#button {
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  border: 2px solid green;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+#list {
+    color: #2F4F4F;
+    margin-top: 30px;
+    background-color: #FFDEAD;
+    box-sizing: border-box;
+    text-align: center;
+    left: 100px;
+    width: 50%;
+    align-items: center;
+    margin-left: 341px;
+    margin-bottom: 0px;
+    text-decoration: underline dotted;
+}
+
+#todo {
+    font-size: 33px;
+    background-color: #FFDEAD;
+    width: 100%;
+    font-family: 'Pangolin', cursive;
+    box-sizing: border-box;
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+    left: 100px;
+    width: 50%;
+    color: #4B0082;
+    margin-bottom: 0px;
+}
+
+#checkbox {
+    height: 20px;
+    width: 20px;
+    color: green;
+    background-color: green;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #4BB543;
+}
+
+#remove {
+    font-family: 'Teko', sans-serif;
+}
+
+#mark {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#removeAll {
+    font-size: 20px;
+    margin-right: 20px;
+}
