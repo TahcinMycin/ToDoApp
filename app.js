@@ -47,6 +47,7 @@ const app = new Vue({
                 $("#mark").prop("disabled", true);
                 $("#removeAll").prop("disabled", true);
                 this.name = "";
+                $("title").text("To Do List");
             }
         }
     },
